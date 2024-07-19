@@ -1,0 +1,11 @@
+var visitToPlace = ['saudia arab', 'paris', 'maldive', 'korea', 'london'];
+console.log("original order:", visitToPlace);
+console.log("Alphabetic order:", visitToPlace.slice().sort());
+console.log("original order:", visitToPlace);
+console.log("reversed alphabetic order:", visitToPlace.slice().sort().reverse());
+console.log("original order:", visitToPlace);
+console.log("reversed order change:", visitToPlace.reverse());
+console.log("original order:", visitToPlace.sort());
+console.log(visitToPlace);
+console.log('reverse alphabetic order change:', visitToPlace.sort().reverse());
+console.log("reverse alphabetic order change:", visitToPlace.sort().reverse());
